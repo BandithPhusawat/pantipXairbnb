@@ -37,7 +37,7 @@ const ContentComponent: React.FC<ContentInterfaceProp> = ({title, detail}) => {
                 <div>
                     <div className='flex flex-col'>
                         <p className="text-red-500 font-bold pl-10 pt-10 pb-0">Highlight</p>
-                        <Carousel className='pr-10 pl-10'> 
+                        <Carousel className='pr-10 pl-10' showArrows={true} showThumbs={true}> 
                             <div>
                                 <Image src="/images/image_1.png" alt="image 1" />
                             </div>
